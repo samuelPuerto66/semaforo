@@ -6,13 +6,15 @@ import { App } from './app';
 import { Clase } from './clase/clase';
 import { Child } from './child/child';
 import { Semaforo } from './semaforo/semaforo';
+import { NuevoComponente } from './nuevo-componente/nuevo-componente';
 
 @NgModule({
   declarations: [
     App,
     Clase,
     Child,
-    Semaforo
+    Semaforo,
+    NuevoComponente
   ],
   imports: [
     BrowserModule,
